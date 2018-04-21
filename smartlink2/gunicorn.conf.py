@@ -6,7 +6,7 @@
 
 command = '/root/ENV/smartlink2/bin/gunicorn'
 pythonpath = '/root/ENV/smartlink2/bin/'
-bind = 'unix:/tmp/gunicorn.sock'
+bind = 'unix:/tmp/smartlink2.sock'
 # bind = '0.0.0.0:8000'
 workers = 5
 user = 'root'
