@@ -10,4 +10,8 @@ pip install -r requirements.txt
 
 ./manage.py migrate
 ./manage.py createsuperuser
+
+
+./manage.py load_initial_data
 ./manage.py runserver
+
