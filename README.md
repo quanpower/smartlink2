@@ -15,3 +15,8 @@ pip install -r requirements.txt
 ./manage.py load_initial_data
 ./manage.py runserver
 
+
+## i18n
+python manage.py makemessages -l zh_hans
+
+python manage.py compilemessages

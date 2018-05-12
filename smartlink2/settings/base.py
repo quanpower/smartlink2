@@ -148,6 +148,22 @@ USE_L10N = True
 USE_TZ = True
 
 
+LANGUAGES = (
+    ('en', ('English')),
+    ('zh-hans', ('中文简体')),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale'),
+)
+ 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    ...
+    "django.core.context_processors.i18n",
+)
+
+
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
