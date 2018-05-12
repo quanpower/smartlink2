@@ -63,6 +63,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 'wagtail.contrib.sitemaps',
+    # 'django_social_share',
+    # 'puput',
 ]
 
 MIDDLEWARE = [
@@ -175,3 +179,7 @@ WAGTAILSEARCH_BACKENDS = {
 
 # Wagtail settings
 WAGTAIL_SITE_NAME = "smartlink2"
+
+
+# This will avoid duplicate inclusion of Wagtail’s URLs when you include Puput’s URLs
+# PUPUT_AS_PLUGIN = True
