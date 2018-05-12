@@ -17,6 +17,9 @@ pip install -r requirements.txt
 
 
 ## i18n
+
+apt-get install gettext
+
 python manage.py makemessages -l zh_hans
 
 python manage.py compilemessages
