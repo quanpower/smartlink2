@@ -1,0 +1,18 @@
+[program:smartlink2]
+command=/root/ENV/smartlink2/bin/gunicorn smartlink2.wsgi -c /root/smartlink2/smartlink2/gunicorn.conf.py
+directory=/root/smartlink2/smartlink2/
+user=root
+autostart=true
+autorestart=true
+redirect_stderr=true
+
+[program:smartlinkiot]
+command=/root/ENV/smartlinkiot/bin/gunicorn iotdashboard.wsgi -c /root/smartlink_iot/gunicorn.conf.py
+directory=/root/smartlink_iot/
+user=root
+autostart=true
+autorestart=true
+redirect_stderr=true
+
+
+
