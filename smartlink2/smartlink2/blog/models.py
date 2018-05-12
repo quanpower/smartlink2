@@ -17,7 +17,7 @@ from wagtail.images.edit_handlers import ImageChooserPanel
 from wagtail.search import index
 from wagtail.snippets.edit_handlers import SnippetChooserPanel
 
-from bakerydemo.base.blocks import BaseStreamBlock
+from smartlink2.base.blocks import BaseStreamBlock
 
 
 class BlogPeopleRelationship(Orderable, models.Model):

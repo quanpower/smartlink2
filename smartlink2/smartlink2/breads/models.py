@@ -13,7 +13,7 @@ from wagtail.search import index
 from wagtail.snippets.models import register_snippet
 from wagtail.images.edit_handlers import ImageChooserPanel
 
-from bakerydemo.base.blocks import BaseStreamBlock
+from smartlink2.base.blocks import BaseStreamBlock
 
 
 @register_snippet

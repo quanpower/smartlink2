@@ -31,11 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'bakerydemo.base',
-    'bakerydemo.blog',
-    'bakerydemo.breads',
-    'bakerydemo.locations',
-    'bakerydemo.search',
+    'smartlink2.base',
+    'smartlink2.blog',
+    'smartlink2.breads',
+    'smartlink2.locations',
+    'smartlink2.search',
 
     'wagtail.contrib.search_promotions',
     'wagtail.contrib.forms',
@@ -79,12 +79,12 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'bakerydemo.urls'
+ROOT_URLCONF = 'smartlink2.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['bakerydemo/templates', ],
+        'DIRS': ['smartlink2/templates', ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -97,7 +97,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'bakerydemo.wsgi.application'
+WSGI_APPLICATION = 'smartlink2.wsgi.application'
 
 
 # Database
@@ -106,7 +106,7 @@ WSGI_APPLICATION = 'bakerydemo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_ROOT, 'bakerydemodb')
+        'NAME': os.path.join(PROJECT_ROOT, 'smartlink2db')
     }
 }
 
@@ -169,9 +169,9 @@ GOOGLE_MAP_API_KEY = 'AIzaSyD31CT9P9KxvNUJOwDq2kcFEIG8ADgaFgw'
 WAGTAILSEARCH_BACKENDS = {
     'default': {
         'BACKEND': 'wagtail.search.backends.db',
-        'INDEX': 'bakerydemo',
+        'INDEX': 'smartlink2',
     },
 }
 
 # Wagtail settings
-WAGTAIL_SITE_NAME = "bakerydemo"
+WAGTAIL_SITE_NAME = "smartlink2"

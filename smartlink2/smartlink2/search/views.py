@@ -5,9 +5,9 @@ from django.shortcuts import render
 from wagtail.core.models import Page
 from wagtail.search.models import Query
 
-from bakerydemo.blog.models import BlogPage
-from bakerydemo.breads.models import BreadPage
-from bakerydemo.locations.models import LocationPage
+from smartlink2.blog.models import BlogPage
+from smartlink2.breads.models import BreadPage
+from smartlink2.locations.models import LocationPage
 
 
 def search(request):

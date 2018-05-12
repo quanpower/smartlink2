@@ -1,3 +1,3 @@
-from bakerydemo.settings.dev import *   # noqa
+from smartlink2.settings.dev import *   # noqa
 
 # Override settings here

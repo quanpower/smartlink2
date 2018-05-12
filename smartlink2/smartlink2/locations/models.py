@@ -12,8 +12,8 @@ from wagtail.core.models import Orderable, Page
 from wagtail.search import index
 from wagtail.images.edit_handlers import ImageChooserPanel
 
-from bakerydemo.base.blocks import BaseStreamBlock
-from bakerydemo.locations.choices import DAY_CHOICES
+from smartlink2.base.blocks import BaseStreamBlock
+from smartlink2.locations.choices import DAY_CHOICES
 
 
 class OperatingHours(models.Model):
